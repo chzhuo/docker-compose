@@ -1,0 +1,8 @@
+fetcherInterval: PT15S
+fetcherTimeout: PT10S
+metricsPath: /metrics
+staticConfig:
+  # targets will be labeled as "instance"
+  targets:
+    - url: http://10.0.5.198:9100
+      sslCaFilePath:
